@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=0">
+    <title>vue-app</title>
+    <link rel="stylesheet" href="/css//reset.css">
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_1303327_64bi7nxs5yn.css">
+    <script src="https://as.alipayobjects.com/g/component/fastclick/1.0.6/fastclick.js"></script>
+    <script>
+        if ('addEventListener' in document) {
+          document.addEventListener('DOMContentLoaded', function() {
+            FastClick.attach(document.body);
+          }, false);
+        }
+    </script>
+
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+    <script>
+      //解决lib-flexible不兼容ipad、ipad pro
+      /(iPad|iPhone OS|iPod|iOS)/i.test(navigator.userAgent)&&(head=document.getElementsByTagName('head'),viewport=document.createElement('meta'),viewport.name='viewport',viewport.content='target-densitydpi=device-dpi, width=540px, user-scalable=no',head.length>0&&head[head.length-1].appendChild(viewport));
+      </script>
+  </body>
+</html>

@@ -1,0 +1,76 @@
+{
+  "name": "vue-client3",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve --open",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@better-scroll/core": "^2.0.0-alpha.19",
+    "axios": "^0.19.0",
+    "babel-plugin-component": "^1.1.1",
+    "better-scroll": "^1.15.2",
+    "i": "^0.3.6",
+    "js-cookie": "^2.2.0",
+    "lib-flexible": "^0.3.2",
+    "mint-ui": "^2.2.13",
+    "mockjs": "^1.0.1-beta3",
+    "node-libs-browser": "^2.2.1",
+    "postcss-px2rem-exclude": "^0.0.6",
+    "postcss-pxtorem": "^4.0.1",
+    "pubsub": "^3.2.1",
+    "pubsub-js": "^1.7.0",
+    "qs": "^6.7.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "swiper": "^4.5.0",
+    "vue": "^2.5.2",
+    "vue-resource": "^1.5.1",
+    "vue-router": "^3.0.6",
+    "vuex": "^3.1.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.9.0",
+    "@vue/cli-plugin-eslint": "^3.9.0",
+    "@vue/cli-service": "^3.9.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {},
+      "postcss-pxtorem": {
+        "rootValue": 75,
+        "propList": [
+          "*"
+        ]
+      }
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "description": "## Project setup ``` yarn install ```",
+  "main": "babel.config.js",
+  "author": "",
+  "license": "ISC"
+}
