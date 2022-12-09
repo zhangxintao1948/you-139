@@ -22,7 +22,7 @@
     "postcss-pxtorem": "^4.0.1",
     "pubsub": "^3.2.1",
     "pubsub-js": "^1.7.0",
-    "qs": "^6.7.0",
+    "qs": "^6.7.3",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.2",
     "swiper": "^4.5.0",
